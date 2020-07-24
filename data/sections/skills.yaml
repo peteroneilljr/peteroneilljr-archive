@@ -1,0 +1,44 @@
+# section information
+section:
+  name: Skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Linux
+  icon: "images/skills/linux.png"
+  summary: "Comfortable in any major flavor, capable of writing bash/shell scripts."
+
+- name: Git
+  icon: "images/skills/git.png"
+  summary: "Collaborative Git experience, primarily with GitHub."
+  
+- name: Docker
+  icon: "images/skills/docker.svg"
+  summary: "Can convert most processes to be run as a dockerized container."
+
+- name: Kubernetes
+  icon: "images/skills/kubernetes.png"
+  summary: "General kubernetes experience, building and managing education tools."
+
+- name: Cloud Computing
+  icon: "images/skills/cloud.png"
+  summary: "I've worked with the big 3 GCP, Azure and most proficient in AWS."
+
+- name: Terraform
+  icon: "images/skills/terraform.png"
+  summary: "I can quickly spin up new environments in Terraform, and can easily break down monolithic configurations into efficient modules."
+
+# - name: Go Development
+#   icon: "images/skills/go.png"
+#   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+
+# - name: Prometheus
+#   icon: "images/skills/prometheus.png"
+#   summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+

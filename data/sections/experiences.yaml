@@ -1,0 +1,115 @@
+# section information
+section:
+  name: Experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: strongDM
+    url: "https://www.strongDM.com"
+    location: Remote Office
+    # company overview
+    overview: The easiest way to manage and audit remote access to your servers, databases, and clusters, anywhere.
+  positions:
+
+  - designation: Product Education Engineer
+    start: May 2019
+    # end: Dec 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Tackling our need to create best-in-class documentation
+    - Experimenting with education tools that are both effective and enjoyable 
+    - T.B.D.
+
+  - designation: Customer Engineer
+    start: August 2017
+    end: May 2019
+    responsibilities:
+    - Provide pre and post sales technical consultations to clients
+    - Build Terraform modules to integrate strongDM into client infrastructure
+    - Diagnose VPC and Kubernetes issues to resolve degredations in access
+
+- company:
+    name: ThousandEyes by Cisco
+    url: "https://www.thousandeyes.com"
+    location: San Francisco, Austin, and Remote offices
+    overview: 'Thrive in a Connected World Map out the global topology of wide area networks and measure performance of all corners of the Internet. Tie together rich visualizations of network infrastructure, control plane and application delivery.'
+  positions:
+
+  - designation: Customer Success Engineer - Asia Pacific
+    start: June 2018
+    end: May 2019
+    responsibilities:
+    - Established a support presense in APAC timezone
+    - Relocated to South East Asia to provide better coverage 
+    - Constructed operating procedures for our new clients
+
+  - designation: Customer Success Engineer - SF
+    start: May 2017
+    end: June 2018
+    responsibilities:
+    - Developed training and onboarding material to triple support staff
+    - Provided professional services, to deploy and configure ThousandEyes for enterprise customers
+    - Compiled in-depth network analytics reports to diagnose network failures
+
+  - designation: Customer Success Engineer - Austin
+    start: April 2016
+    end: May 2017
+    responsibilities:
+    - Inaugural first emplyee in the Austin office
+    - Assisted in recruiting and hiring of a support team of 5
+    - Trained in-bound sales team on networking 101 terminology and use-cases
+
+- company:
+    name: WebPass by Google Fiber
+    url: "https://www.webpass.net"
+    location: San Francisco and Chicago
+    overview: 'Our mission: Make your Internet experience simple. At Google Fiber Webpass, we help residents and businesses by offering blazing fast, simple Internet in urban areas.'
+  positions:
+
+  - designation: Network Engineer - Chicago
+    start: October 2014
+    end: April 2016
+    responsibilities:
+    - Established our point-of-presence for our first datacenter on the south-side
+    - Designed high-throughput, high-availablility wireless mesh network over 5 square miles
+    - Assisted as technical sales engineer to onboard 700 residential and 20 business customers
+
+  - designation: Network Administrator - San Francisco Bay Area
+    start: October 2013
+    end: October 2014
+    responsibilities:
+    - Optimized residential networks, removing bottlenecks and introducing fiber links
+    - Upgraded the wireless backbone to a 1GB high-frequency mesh network
+    - Participated in on-call rotation for off-hours support of hardware failure 
+
+- company:
+    name: Mozilla Corporation 
+    url: "https://www.mozilla.org/en-US/foundation/moco/"
+    location: Mountain View and San Francisco
+    overview: Our mission is to ensure the Internet is a global public resource, open and accessible to all. An Internet that truly puts people first, where individuals can shape their own experience and are empowered, safe and independent.
+  positions:
+
+  - designation: Technical Support Lead - San Francisco Bay Area
+    start: October 2013
+    end: June 2012
+    responsibilities:
+    - Deployed 1000+ phones for FirefoxOS
+    - Distributed hardware at major conferences
+    - Constructed networks for new offices in London and Vancouver
+    - Configured A/V for offsite events
+    - Managed a small team of interns
+
+  - designation: Helpdesk contractor - Mountain View Bay Area
+    start: February 2012
+    end: August 2011
+    responsibilities:
+    - Diagnosed and repaird desktop clients for executive team of 10
+    - Developed a laptop imaging process to onboard 900+ employees
+
