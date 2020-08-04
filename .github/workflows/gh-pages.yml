@@ -1,9 +1,6 @@
 name: github pages
 
-on:
-  push:
-    branches:
-      - source
+on: push
 
 jobs:
   deploy:
@@ -15,16 +12,21 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
-        uses: peteroneilljr/peteroneilljr@v2
+        uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.72.0'
+          hugo-version: 'latest'
 
       - name: Build
         run: hugo
 
       - name: Deploy
-        uses: peteroneilljr/peteroneilljr@v3
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          external_repository: peteroneilljr/peteroneilljr.github.io
           publish_dir: ./docs
-          publish_branch: master  # deploying branch
+          #   keep_files: true
+          user_name: peteroneilljr
+          user_email: peteroneilljr@gmail.com
+          publish_branch: master
+          cname: peteroneilljr.com
