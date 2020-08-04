@@ -23,7 +23,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          external_repository: peteroneilljr/peteroneilljr.github.io
+          external_repository: peteroneilljr/peteroneilljr
           publish_dir: ./docs
           #   keep_files: true
           user_name: peteroneilljr
