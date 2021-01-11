@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/peteroneilljr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://peteroneilljr.com
+  * I am peteroneilljr (https://keybase.io/peteroneilljr) on keybase.
+  * I have a public key ASADOfong5pgm_gF4WI1eA-Fcf2d3AVXZdHU9BjBMqGHywo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f8dac7d2e2271d2c68b3118670a6d81d822d973ec60e4b7b7f12ed84b841d4810a",
+      "host": "keybase.io",
+      "kid": "01200339fa27839a609bf805e16235780f8571fd9ddc055765d1d4f418c132a187cb0a",
+      "uid": "193e9cab1e0931602aac22aa2f8a5919",
+      "username": "peteroneilljr"
+    },
+    "merkle_root": {
+      "ctime": 1610396348,
+      "hash": "333e4d42b0d5c3255567ae142855184c982a868215e4eae079f3691b368bef30363d6825bbde47e77a28edcef24b9736c6671a1b7b36cf2d05bf5f8c6de8932e",
+      "hash_meta": "04198a501c8bab795c65fa71742663dc5eecad6befea639ec18629dc91a3bbf3",
+      "seqno": 18699085
+    },
+    "service": {
+      "entropy": "KexQRQvSQHqvZQLzrp2omNV2",
+      "hostname": "peteroneilljr.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1610396353,
+  "expire_in": 504576000,
+  "prev": "6e1f85eb62620e0080dfb12cdaaa70ce47afd4e53e4e486852c11e8eb4b5f301",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgAzn6J4OaYJv4BeFiNXgPhXH9ndwFV2XR1PQYwTKhh8sKp3BheWxvYWTESpcCE8Qgbh+F62JiDgCA37Es2qpwzkev1OU+TkhoUsEejrS18wHEIHShMYhvlnZVKxkLPgsVy26ihvaaUUl3LnJJpt2wRxwAAgHCo3NpZ8RAZ1JYl0q61/s56IsoIz6dF7Z0LEWEsi/41NxxdTvkE9D9CeTTfR3VmCo3lkNLVxncF4Z4pOS669uRkE0d2jA9BahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEID2aRRmalRipv2tuR+ZGej+j5g/47044OW16i2zHh0vgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/peteroneilljr
+
+==================================================================
